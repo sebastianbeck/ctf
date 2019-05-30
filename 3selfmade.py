@@ -32,7 +32,7 @@ while count < 1000:
 
 	hsv = cv2.cvtColor(frame40, cv2.COLOR_BGR2HSV)
 	kernel = np.ones((2,2),np.uint8)
-	erosion = cv2.erode(hsv,kernel,iterations = 3)
+	erosion = cv2.erode(hsv,kernel,iterations = 2)
 
 	#hsv = cv2.cvtColor(frame40, cv2.COLOR_BGR2HSV)
 	th, bw = cv2.threshold(erosion[:, :, 2], 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
@@ -52,19 +52,19 @@ while count < 1000:
 
 	# Filter by Area.
 	params.filterByArea = True
-	params.minArea =600
+	params.minArea =800
 
 	# Filter by Circularity
 	params.filterByCircularity = True
-	params.minCircularity = 0.01
+	params.minCircularity = 0.1
 
 	# Filter by Convexity
 	params.filterByConvexity = True
-	params.minConvexity = 0.87
+	params.minConvexity = 0.85
 	    
 	# Filter by Inertia
 	params.filterByInertia = True
-	params.minInertiaRatio = 0.01
+	params.minInertiaRatio = 0.1
 
 	# Create a detector with the parameters
 	ver = (cv2.__version__).split('.')
