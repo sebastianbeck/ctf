@@ -25,4 +25,14 @@ Of particular interest may be the insect-like creatures flying around this plane
 
 ## Your Choice!
 Having found the information you were looking for, while detailed, it presents you with an interesting dilemma. There is a network of "computers" not completely dissimilar to your computrator-machine on your ship. You find yourself in possession of the credentials of an individual on the planet named "SarahH." Great, with these you can get right into the secret world of an earthling without them knowing you're there. You access "SarahH home network," to find two computers: "work" and "home." Not knowing what either of these are, you have to make a decision.
+
 [Home Computer forensics Day 2, easier](https://github.com/sebastianbeck/ctf/blob/master/google2019/Challanges/Satellite%20Networking/readme.md)
+
+## Government Agriculture Network
+Well it seems someone can't keep their work life and their home life separate. You vaguely recall on your home planet, posters put up everywhere that said "Loose Zips sink large commercial properties with a responsibility to the shareholders." You wonder if there is a similar concept here.
+
+Using the credentials to access this so-called Agricultural network, you realize that SarahH was just hired as a vendor or contract worker and given access that was equivalent. You can only assume that Vendor/Contractor is the highest possible rank bestowed upon only the most revered and well regarded individuals of the land and expect information and access to flow like the Xenovian acid streams you used to bathe in as a child.
+
+The portal picture displays that small very attractive individual whom you instantly form a bond with, despite not knowing. You must meet this entity! Converse and convince them you're meant to be! After a brief amount of time the picture shifts into a biped presumably ingesting this creature! HOW DARE THEY. You have to save them, you have to stop this from happening. Get more information about this Gubberment thing and stop this atrocity.
+
+You need to get in closer to save them - you beat on the window, but you need access to the cauliflower's host to rescue it.
