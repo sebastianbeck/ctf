@@ -13,7 +13,7 @@ Establishing secure connection to osmium
  satellite...
 Welcome. Enter (a) to display config data, (b) to erase all data or (c) to disconnect
 ```
-If i type option a, i get this answer.
+If I type option a, i get this answer.
 ```
 Username: brewtoot password: ********************	166.00 IS-19 2019/05/09 00:00:00	Swath 640km	Revisit capacity twice daily, anywhere Resolution panchromatic: 30cm multispectral: 1.2m	Daily acquisition capacity: 220,000km²	Remaining config data written to: https://docs.google.com/document/d/14eYPluD_pi3824GAFanS29tWdTcKxP_XUxx7e303-3E
 ```
@@ -23,9 +23,11 @@ Logins for home and work computer:
 Username: webortto
 Password: totally-not-a-flag-keep-sniffing
 ```
-
-RE: i found the following string in the connect to sta file
-
+I also tried to reserve the binary and found this, which led to nothing
+```
 CTF{\S{40}}GOTRACEBACKHOSTALIASESIdeographicInstCaptureInstRuneAnyLOCALDOMAINNew_Tai_LueOld_PersianPau_Cin_HauRES_OPTIONSSignWr
-
-
+```
+So I took a break and then the note in the password came to my mind. I started Wireshark and sniffed the traffic and under the asterisk hid the following text. I need to read the hints more conscious.
+```
+CTF{4efcc72090af28fd33a2118985541f92e793477f}
+```
