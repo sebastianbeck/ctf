@@ -27,7 +27,7 @@ I also tried to reserve the binary and found this, which led to nothing
 ```
 CTF{\S{40}}GOTRACEBACKHOSTALIASESIdeographicInstCaptureInstRuneAnyLOCALDOMAINNew_Tai_LueOld_PersianPau_Cin_HauRES_OPTIONSSignWr
 ```
-So I took a break and then the note in the password came to my mind. I started Wireshark and sniffed the traffic and under the asterisk hid the following text. I need to read the hints more conscious.
+So I took a break and then the note in the password came to my mind. I started Wireshark and sniffed the traffic and under the asterisk when you chose the option (a) hid the following text. I need to read the hints more conscious.
 ```
 CTF{4efcc72090af28fd33a2118985541f92e793477f}
 ```
