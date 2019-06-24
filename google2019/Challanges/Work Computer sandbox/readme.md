@@ -11,7 +11,7 @@ The box is restricted as  uname -a returned something with Linux Jail. I thought
 https://github.com/AidanFray/CTF_Writeups/tree/master/2019/GoogleCTF/BeginnerQuests/WorkComputer
 
 I learned about https://gtfobins.github.io which will be very helpful in the future. 
-
+I another way would have been to use tar -c README.flag
 >Main Flag
 >
 >The challenge starts by providing us with a command prompt. However, is immediately apparent that commands are missing and you're unable to cat out files.
