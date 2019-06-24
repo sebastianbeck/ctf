@@ -11,12 +11,16 @@ The box is restricted and I focuesd alot on the how to escape which was not the 
 After the deadline for the i searched for write ups and found this on https://github.com/AidanFray/CTF_Writeups/tree/master/2019/GoogleCTF/BeginnerQuests/
 
 >Main Flag
+>
 >The challenge starts by providing us with a command prompt. However, is immediately apparent that commands are missing and you're unable to cat out files.
+>
 >Listing out /usr/bin or /bin (where system binaries are stored) allows us to view what we can execute.
 >Using this information alongside the beautiful website gtfobins. I am able to search for binaries that allow us to read a file.
 >After a little trial and error I come across the command fold that is used to wrap text to fit a specified width.
 >This, however, allows us to read local files! Taking the code snippet from gtfobins
+>
 >LFILE=file_to_read
+>
 >fold -w99999999 "$LFILE"
 >
 >We're able to print the READEME.flag to get the first flag (-w is just to specify the character width)
