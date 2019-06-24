@@ -5,7 +5,7 @@ Also presented is an image of a fascinating round and bumpy creature, labeled "C
 
 SarahH, who appears to be  a programmer with several clients, has left open a terminal.  Oops.  Sorry clients!  Aliens will be poking around attempting to access your networks.. looking for Cauliflower.   That is, *if* they can learn to navigate such things.
 
-#Challange
+# Challange
 We need to connect to readme.ctfcompetition.com 1337 via telnet.
 The box is restricted as  uname -a returned something with Linux Jail. I thought I need to break out of the chroot which was not the case. I couldn't find the solution by myself so i found this write up. 
 https://github.com/AidanFray/CTF_Writeups/tree/master/2019/GoogleCTF/BeginnerQuests/WorkComputer
