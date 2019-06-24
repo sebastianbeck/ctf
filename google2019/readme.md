@@ -26,7 +26,7 @@ Of particular interest may be the insect-like creatures flying around this plane
 ## Your Choice!
 Having found the information you were looking for, while detailed, it presents you with an interesting dilemma. There is a network of "computers" not completely dissimilar to your computrator-machine on your ship. You find yourself in possession of the credentials of an individual on the planet named "SarahH." Great, with these you can get right into the secret world of an earthling without them knowing you're there. You access "SarahH home network," to find two computers: "work" and "home." Not knowing what either of these are, you have to make a decision.
 
-[Home Computer forensics Day 2, easier](https://github.com/sebastianbeck/ctf/blob/master/google2019/Challanges/Satellite%20Networking/readme.md)
+[Home Computer forensics Day 2, easier](https://github.com/sebastianbeck/ctf/tree/master/google2019/Challanges/Home%20Computer%20forensics)
 
 ## Government Agriculture Network (Path Home Network)
 Well it seems someone can't keep their work life and their home life separate. You vaguely recall on your home planet, posters put up everywhere that said "Loose Zips sink large commercial properties with a responsibility to the shareholders." You wonder if there is a similar concept here.
