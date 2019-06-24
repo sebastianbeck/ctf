@@ -11,3 +11,7 @@ You need to get in closer to save them - you beat on the window, but you need ac
 
 # Challange
 Here you get an URL to a website: https://govagriculture.web.ctfcompetition.com/
+
+I didn't really try this one cause I don't have a lot of expierence with web based challanges. 
+I found this write up.https://github.com/AidanFray/CTF_Writeups/tree/master/2019/GoogleCTF/BeginnerQuests/GovernmentAgricultureNetwork
+I need to learn alot about Webbased Challanges.
