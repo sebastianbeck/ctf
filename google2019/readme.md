@@ -38,3 +38,13 @@ The portal picture displays that small very attractive individual whom you insta
 You need to get in closer to save them - you beat on the window, but you need access to the cauliflower's host to rescue it.
 [Governmentt Argiculure Network](https://github.com/sebastianbeck/ctf/tree/master/google2019/Challanges/Government%20Agriculture%20Network%20web) 
 
+
+## Work Computer sandbox Day 2 easy
+With the confidence of conviction and decision making skills that made you a contender for Xenon's Universal takeover council, now disbanded, you forge ahead to the work computer.   This machine announces itself to you, surprisingly with a detailed description of all its hardware and peripherals. Your first thought is "Why does the display stand need to announce its price? And exactly how much does 999 dollars convert to in Xenonivian Bucklets?" You always were one for the trivialities of things.
+
+Also presented is an image of a fascinating round and bumpy creature, labeled "Cauliflower for cWo" - are "Cauliflowers" earthlings?  Your 40 hearts skip a beat - these are not the strange unrelatable bipeds you imagined earthings to be.. this looks like your neighbors back home. Such curdley lobes. Will it be at the party?
+
+SarahH, who appears to be  a programmer with several clients, has left open a terminal.  Oops.  Sorry clients!  Aliens will be poking around attempting to access your networks.. looking for Cauliflower.   That is, *if* they can learn to navigate such things.
+
+[Work Computer Sandbox]
+(https://github.com/sebastianbeck/ctf/blob/master/google2019/Challanges/Work%20Computer%20sandbox/readme.md)
