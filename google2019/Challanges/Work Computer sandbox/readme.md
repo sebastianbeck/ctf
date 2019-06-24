@@ -7,8 +7,10 @@ SarahH, who appears to be  a programmer with several clients, has left open a te
 
 #Challange
 We need to connect to readme.ctfcompetition.com 1337 via telnet.
-The box is restricted and I focuesd alot on the how to escape which was not the solution at all.
-After the deadline for the i searched for write ups and found this on https://github.com/AidanFray/CTF_Writeups/tree/master/2019/GoogleCTF/BeginnerQuests/
+The box is restricted as  uname -a returned something with Linux Jail. I thought I need to break out of the chroot which was not the case. I couldn't find the solution by myself so i found this write up. 
+https://github.com/AidanFray/CTF_Writeups/tree/master/2019/GoogleCTF/BeginnerQuests/WorkComputer
+
+I learned about https://gtfobins.github.io which will be very helpful in the future. 
 
 >Main Flag
 >
@@ -31,3 +33,4 @@ After the deadline for the i searched for write ups and found this on https://gi
 >
 >CTF{4ll_D474_5h4ll_B3_Fr33}
 >
+
