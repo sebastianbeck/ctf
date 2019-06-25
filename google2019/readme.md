@@ -1,5 +1,7 @@
-# Beginners Quest
-<img>11111111111111
+##Table of Content
+
+## Beginners Quest
+![Google CTF Overview](https://github.com/sebastianbeck/ctf/blob/master/google2019/src/img/googlectf.png?raw=true "Google CTF Overview")
 
 Welcome to Beginners Quest! A few notes before your embark:
 *There are multiple paths that lead through different challenges, to 4 different endings.
@@ -17,7 +19,7 @@ You'll go, since you have nowhere else to go. But you'll be careful. You well kn
 Ok well done. The console is on. It's asking for coordinates. Beating heavily on the console yields little results, but the only time anything changes on your display is when you put in numbers.. So what numbers are you going to go for?  You see the starship's logs, but is there a manual? Or should you just keep beating the console?
 
 ## Solution
-You can download a [zip](https://github.com/sebastianbeck/ctf/blob/master/google2019/Challanges/Enter%20Space-Time%20Coordinates/00c2a73eec8abb4afb9c3ef3a161b64b451446910535bfc0cc81c2b04aa132ed.zip). In the zip are two files, one log file and one executable. The URL to the challange contains *reversing-rand2*. This suggests that we have to do some reverse engineering. I openend the file in EDB and found the flag by scrolling through it. 
+You can download a [zip](https://github.com/sebastianbeck/ctf/blob/master/google2019/src/challenges/00c2a73eec8abb4afb9c3ef3a161b64b451446910535bfc0cc81c2b04aa132ed.zip). In the zip are two files, one log file and one executable. The URL to the challange contains *reversing-rand2*. This suggests that we have to do some reverse engineering. I openend the file in EDB and found the flag by scrolling through it. 
 ```
 Flag: CTF{welcome_to_googlectf}
 ```
@@ -30,7 +32,7 @@ Of particular interest may be the insect-like creatures flying around this plane
 ## Satellite Networking
 Placing your ship in range of the Osmiums, you begin to receive signals. Hoping that you are not detected, because it's too late now, you figure that it may be worth finding out what these signals mean and what information might be "borrowed" from them. Can you hear me Captain Tim? Floating in your tin can there? Your tin can has a wire to ground control?
 ## Solution
-You download a [zip](https://github.com/sebastianbeck/ctf/blob/master/google2019/Challanges/Satellite%20Networking/768be4f10429f613eb27fa3e3937fe21c7581bdca97d6909e070ab6f7dbf2fbf.zip) with one executable and a readme file.
+You download a [zip](https://github.com/sebastianbeck/ctf/blob/master/google2019/src/challenges/00c2a73eec8abb4afb9c3ef3a161b64b451446910535bfc0cc81c2b04aa132ed.zip) with one executable and a readme file.
 I start the executable
 ```
 Hello Operator. Ready to connect to a satellite?
@@ -118,11 +120,11 @@ I need to learn alot about Webbased Challanges.
 
 ## STOP GAN bof (Path Home Network)
 Success, you've gotten the picture of your lost love, not knowing that pictures and the things you take pictures of are generally two separate things, you think you've rescue them and their brethren by downloading them all to your ships hard drive. They're still being eaten, but this is a fact that has escaped you entirely. Your thoughts swiftly shift to revenge. It's important now to stop this program from destroying these "Cauliflowers" as they're referred to, ever again.
-## Solution Nomral Flag 
+## Solution normal flag
 After I had to look up the solution for the other challenge, I hope to solve this without help. 
 I have never tried a bufferoverflow challenge before so let's see what I can learn.
 
-I can download a zip file which contains a ELF32 bit executable and a .c file with source code.
+I can download a [zip](https://github.com/sebastianbeck/ctf/blob/master/google2019/src/challenges/4a8becb637ed2b45e247d482ea9df123eb01115fc33583c2fa0e4a69b760af4a.zip) file which contains a ELF32 bit executable and a .c file with source code.
 You can also connect to the host buffer-overflow.ctfcompetition.com 1337. 
 First I take a look at the source code where I can see that the input is limited to 256.
 The first input needs to be run, and afterwards it waits for another input which we may be able to overflow?.
@@ -199,5 +201,13 @@ FLAG: CTF{4ll_D474_5h4ll_B3_Fr33}
 ## Solution bonus flag
 There is a a solution to the bonus flag in the link above.
 
+## FriendSpaceBookPlusAllAccessRedPremium.com reversing
+Having snooped around like the expert spy you were never trained to be, you found something that takes your interest: "Cookie/www.FriendSpaceBookPlusAllAccessRedPremium.com"  But unbeknownst to you, it was only the  700nm Wavelength herring rather than a delicious cookie that you could have found.   It looks exactly like a credential for another system.  You find yourself in search of a friendly book to read.
 
+Having already spent some time trying to find a way to gain more intelligence... and learn about those fluffy creatures, you (several)-momentarily divert your attention here.  It's a place of all the individuals in the world sharing large amounts of data with one another. Strangely enough, all of the inhabitants seem to speak using this weird pictorial language. And there is hot disagreement over what the meaning of an eggplant is.
+
+But not much Cauliflower here.  They must be very private creatures.  SarahH has left open some proprietary tools, surely running this will take you to them.  Decipher this language and move forth!
+
+## Solution 
+I need to download a [zip](https://github.com/sebastianbeck/ctf/blob/master/google2019/src/challenges/775e97ff94e7dfe79293b62abed7e1ad17cdc6ebc82c4873cdca201c40569624.zip) file which containts a python and a executable file.
 
