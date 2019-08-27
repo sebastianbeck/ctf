@@ -1,5 +1,3 @@
-##Table of Content
-
 ## Beginners Quest
 ![Google CTF Overview](https://github.com/sebastianbeck/ctf/blob/master/google2019/src/img/googlectf.png?raw=true "Google CTF Overview")
 
