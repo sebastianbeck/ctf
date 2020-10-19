@@ -1,0 +1,24 @@
+004015B6 | C8 0000 00               | enter 0,0                                       |
+004015BA | 8B45 08                  | mov eax,dword ptr ss:[ebp+8]                    |
+004015BD | 0345 0C                  | add eax,dword ptr ss:[ebp+C]                    |
+004015C0 | C9                       | leave                                           |
+004015C1 | C2 0800                  | ret 8                                           |
+004015C4 | C8 0000 00               | enter 0,0                                       |
+004015C8 | 8B45 08                  | mov eax,dword ptr ss:[ebp+8]                    |
+004015CB | 8B4D 0C                  | mov ecx,dword ptr ss:[ebp+C]                    |
+004015CE | 2BC1                     | sub eax,ecx                                     |
+004015D0 | C9                       | leave                                           |
+004015D1 | C2 0800                  | ret 8                                           |
+004015D4 | C8 0000 00               | enter 0,0                                       |
+004015D8 | 8B45 08                  | mov eax,dword ptr ss:[ebp+8]                    |
+004015DB | 0FAF45 0C                | imul eax,dword ptr ss:[ebp+C]                   |
+004015DF | 90                       | nop                                             |
+004015E0 | C9                       | leave                                           |
+004015E1 | C2 0800                  | ret 8                                           |
+004015E4 | C8 0000 00               | enter 0,0                                       |
+004015E8 | 52                       | push edx                                        |
+004015E9 | 8B45 08                  | mov eax,dword ptr ss:[ebp+8]                    |
+004015EC | 33D2                     | xor edx,edx                                     |
+004015EE | F77D 0C                  | idiv dword ptr ss:[ebp+C]                       |
+004015F1 | 5A                       | pop edx                                         |
+004015F2 | C9                       | leave                                           |
