@@ -7,7 +7,8 @@
 
 I got this little image, but it looks like the best part got censored on the way. Even the tiny preview icon looks clearer than this! Maybe they missed something that would let you restore the original content?
 
-![Flag1](https://github.com/sebastianbeck/ctf_priv/blob/master/hackvent19/flag1/1.jpg)
+![Flag1](https://github.com/sebastianbeck/ctf/blob/master/hackvent19/flag1/1.jpg)
+
 
 ### Solution
 
@@ -34,11 +35,11 @@ Today we give away decorations for your Christmas tree. But be careful and do no
 
 First, I download the file and unzip it. It is an stl(3D Image) file which I open in a web viewer. It is a Christmas bulb. I play around with the different views and see there is a QR code inside the bulb. The web viewer is very limited, so I downloaded the FreeCAD Software and again play around with different view settings and got to this picture.
 
-![Flag2_1](https://github.com/sebastianbeck/ctf_priv/blob/master/hackvent19/flag2/Flag2_1.png)
+![Flag2_1](https://github.com/sebastianbeck/ctf/blob/master/hackvent19/flag2/Flag2_1.png)
 
 I make a screenshot and use gimp to edit the screenshot. After some work I get a functional QR Code.
 
-![Flag2_2](https://github.com/sebastianbeck/ctf_priv/blob/master/hackvent19/flag2/Flag2_2.png)
+![Flag2_2](https://github.com/sebastianbeck/ctf/blob/master/hackvent19/flag2/Flag2_2.png)
 
 The Flag is:
 ```
@@ -108,7 +109,7 @@ HV19{R3memb3r, rem3mber - the 24th 0f December}
 
 To handle the huge load of parcels Santa introduced this year a parcel tracking system. He didn't like the black and white barcode, so he invented a more solemn barcode. Unfortunately the common barcode readers can't read it anymore, it only works with the pimped models Santa owns. Can you read the barcode?
 
-![Flag5_1](https://github.com/sebastianbeck/ctf_priv/blob/master/hackvent19/flag5/Flag5_1.png)
+![Flag5_1](https://github.com/sebastianbeck/ctf/blob/master/hackvent19/flag5/Flag5_1.png)
 
 ### Solution
 
@@ -152,7 +153,7 @@ f.close
 
 ### Challenge
 
-![Flag6_1](https://github.com/sebastianbeck/ctf_priv/blob/master/hackvent19/flag6/Flag6_1.png)
+![Flag6_1](https://github.com/sebastianbeck/ctf/blob/master/hackvent19/flag6/Flag6_1.png)
 
 ### Solution
 
@@ -286,7 +287,7 @@ N/A
 The flag is right, of course
 
 ### Resources
-[Flag10](https://github.com/sebastianbeck/ctf_priv/blob/master/hackvent19/flag10/10.zip)
+[Flag10](https://github.com/sebastianbeck/ctf/blob/master/hackvent19/flag10/10.zip)
 
 ### Solution
 I executed the binary and tried some inputs. Afterwards I ran it with ltrace, scrolled through it and got the flag.
@@ -340,7 +341,7 @@ Can you break it and retrieve the critical information?
 ### Resources
 
 Facility: http://whale.hacking-lab.com:8888/trieme/
-[HV19.13-NotesBean.java.zip](https://github.com/sebastianbeck/ctf_priv/blob/master/hackvent19/flag13/HV19.13-NotesBean.java.zip)
+[HV19.13-NotesBean.java.zip](https://github.com/sebastianbeck/ctf/blob/master/hackvent19/flag13/HV19.13-NotesBean.java.zip)
 
 ### Solution
 
@@ -356,7 +357,7 @@ Let's play another little game this year. Once again, I promise it is hardly obf
 
 ### Resources
 
-[original.pl](https://github.com/sebastianbeck/ctf_priv/blob/master/hackvent19/flag14/original.pl)
+[original.pl](https://github.com/sebastianbeck/ctf/blob/master/hackvent19/flag14/original.pl)
 
 ### Solution
 
@@ -374,7 +375,7 @@ $p[0]+1,$p[1]+1)||[])->[0];$q==$t&&$T->();$T->();
 ```
 
 Here the modified file:
-[godmode.pl](https://github.com/sebastianbeck/ctf_priv/blob/master/hackvent19/flag14/godmode.pl)
+[godmode.pl](https://github.com/sebastianbeck/ctf/blob/master/hackvent19/flag14/godmode.pl)
 The Flag is:
 
 ```
@@ -412,17 +413,17 @@ HV19.16-b0rked.zip
 
 We get a calculator which isn't working properly. It seems like we have to recreate the operations in the program. I download and install the x32dbg.
 I open the .exe in x3dbg and run the program with **F9** and at the top of the program we can see that we are in the borked module.
-![pic1](https://github.com/sebastianbeck/ctf_priv/blob/master/hackvent19/flag16/pic1.png)
+![pic1](https://github.com/sebastianbeck/ctf/blob/master/hackvent19/flag16/pic1.png)
 
 After that i search for intermodular calls and set breakpoints. In this challenge it is the **SetDigItemInt**.
-![pic2](https://github.com/sebastianbeck/ctf_priv/blob/master/hackvent19/flag16/pic2.png)
+![pic2](https://github.com/sebastianbeck/ctf/blob/master/hackvent19/flag16/pic2.png)
 
 I look what happens there and figure out that above it looks for the operator and then jumps to different sections.
 I set breakpoints there with **F2** and run the exe again.
-![pic3](https://github.com/sebastianbeck/ctf_priv/blob/master/hackvent19/flag16/pic3.png)
+![pic3](https://github.com/sebastianbeck/ctf/blob/master/hackvent19/flag16/pic3.png)
 
 I step through the program with **F7** and then it jumps to some strange place with a lot of nops. It seems like here once was the operation.
-![pic4](https://github.com/sebastianbeck/ctf_priv/blob/master/hackvent19/flag16/pic4.png)
+![pic4](https://github.com/sebastianbeck/ctf/blob/master/hackvent19/flag16/pic4.png)
 
 It pushes the value of ebp+8 to eax. EBP+8 is the second value we entered in the calc. With this site i find out how to add two numbers. https://c9x.me/x86/html/file_module_x86_id_5.html.I add the operation and run the program again. The flag looks better. I repeat the steps for Substition and multiplication.
 idiv is special so we need to push edx to the stack, cause saves the "Rest" in edx and then pop it again. 
